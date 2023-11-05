@@ -25,8 +25,8 @@ const animations = createAnimations({
   },
 });
 
-const headingFont = createInterFont();
-const bodyFont = createInterFont();
+// const headingFont = createInterFont();
+// const bodyFont = createInterFont();
 
 const config = createTamagui({
   animations,
@@ -34,10 +34,10 @@ const config = createTamagui({
   shouldAddPrefersColorThemes: false,
   themeClassNameOnRoot: false,
   shorthands,
-  fonts: {
-    heading: headingFont,
-    body: bodyFont,
-  },
+  // fonts: {
+  //   heading: headingFont,
+  //   body: bodyFont,
+  // },
   themes,
   tokens,
   media: createMedia({
